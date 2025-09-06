@@ -87,3 +87,25 @@
 
 //taking input and printing them using function
 
+#include<iostream>
+using namespace std;
+
+void printarray(int array[],int size){
+    cout<<"taking input in the array \n\n";
+    for(int i=0;i<size;i++){
+        cin>>array[i];
+    }
+    cout<<"Printing Array \n";
+    for(int i=0;i<size;i++){
+        cout<<array[i] <<endl;
+    }
+}
+
+
+int main(){
+    int size=10;
+    int array[10];
+    printarray(array,size);
+    return 0;
+}
+
