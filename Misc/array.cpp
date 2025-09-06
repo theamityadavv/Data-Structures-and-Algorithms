@@ -70,6 +70,20 @@
 // }
 
 
+// //printing the array using function
+// #include<iostream>
+// using namespace std;
+// void printarray(int array[],int size){
+//     cout<<"Printing Array... \n";
+//     for(int i=0;i<size;i++){
+//         cout<<array[i] <<endl;
+//     }
+// }
+// int main(){
+//      int size=10;
+//     int array[10]={1,2,3,5,6,4,3,3,4,5};
+//     printarray(array,size);
+// }
 
-
+//taking input and printing them using function
 
