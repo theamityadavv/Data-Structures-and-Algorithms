@@ -17,7 +17,6 @@ using namespace std;
     return min;
  }
 
-
 int main(){
     int size=10;
     int array[10]={111,22,33,4,-444,35,5,64,8,5};
